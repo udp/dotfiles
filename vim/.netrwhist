@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Library/WebServer/Documents'
+let g:netrw_dirhist_2='/Users/james/Dropbox/visbolbackup5/js/visbol/lib/geom'
+let g:netrw_dirhist_3='/Users/james/fusion3/nucleus/fusion3.xcodeproj'
+let g:netrw_dirhist_4='/Users/james/fusion3/nucleus/android'
+let g:netrw_dirhist_5='/Users/james/fusion3-github/photon/CMakeFiles'
+let g:netrw_dirhist_6='/Users/james/fusion3'
