@@ -173,7 +173,7 @@ autocmd FileType qf wincmd J
 
 " GUI font setting
 "
-#set guifont=9x15:h15
+"set guifont=9x15:h15
 set guifont=Monaco:h11
 
 "colorscheme mustang
