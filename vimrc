@@ -4,6 +4,8 @@ set shell=bash
 set nocompatible
 filetype off
 
+set encoding=utf-8
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -174,7 +176,7 @@ autocmd FileType qf wincmd J
 " GUI font setting
 "
 "set guifont=9x15:h15
-set guifont=Monaco:h11
+"set guifont=Monaco:h11
 
 "colorscheme mustang
 colorscheme desert
