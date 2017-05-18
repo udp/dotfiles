@@ -1,5 +1,5 @@
 
-set shell=bash
+set shell=bash\ --login
 
 set nocompatible
 filetype off
@@ -15,17 +15,21 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'scrooloose/nerdtree'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-abolish'
 Plugin 'flazz/vim-colorschemes'
+
+
 Plugin 'leafgarland/typescript-vim'
-Plugin 'clausreinke/typescript-tools.vim'
+Plugin 'Quramy/tsuquyomi'
 Plugin 'Shougo/vimproc.vim'
-"Plugin 'Quramy/tsuquyomi'
+Plugin 'Valloric/YouCompleteMe'
+
+
+"Plugin 'clausreinke/typescript-tools.vim'
 Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()
