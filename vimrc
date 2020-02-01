@@ -1,5 +1,5 @@
 
-set shell=bash
+set shell=bash\ --login
 
 set nocompatible
 filetype off
@@ -22,15 +22,16 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-abolish'
 Plugin 'flazz/vim-colorschemes'
+
+
 Plugin 'leafgarland/typescript-vim'
-Plugin 'clausreinke/typescript-tools.vim'
+Plugin 'Quramy/tsuquyomi'
 Plugin 'Shougo/vimproc.vim'
 "Plugin 'Quramy/tsuquyomi'
 
 
 "Plugin 'Quramy/tsuquyomi'
 "Plugin 'Shougo/vimproc.vim'
-Plugin 'Valloric/YouCompleteMe'
 
 
 "Plugin 'clausreinke/typescript-tools.vim'
