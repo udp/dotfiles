@@ -16,7 +16,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'marijnh/tern_for_vim'
+"Plugin 'marijnh/tern_for_vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-unimpaired'
@@ -26,6 +26,14 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'clausreinke/typescript-tools.vim'
 Plugin 'Shougo/vimproc.vim'
 "Plugin 'Quramy/tsuquyomi'
+
+
+"Plugin 'Quramy/tsuquyomi'
+"Plugin 'Shougo/vimproc.vim'
+Plugin 'Valloric/YouCompleteMe'
+
+
+"Plugin 'clausreinke/typescript-tools.vim'
 Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()
@@ -174,11 +182,12 @@ autocmd FileType qf wincmd J
 
 " GUI font setting
 "
-"set guifont=9x15:h15
-"set guifont=Monaco:h11
+set guifont=9x15:h15
+set guifont=SF\ Mono\ Regular:h11
 
 "colorscheme mustang
-colorscheme desert
+"colorscheme desert
+colorscheme angr
 
 "if matchstr(&guifont, "Powerline") == "Powerline"
     "let g:airline_powerline_fonts=1
